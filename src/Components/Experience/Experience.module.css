@@ -1,0 +1,82 @@
+.container{
+    color: black;
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:#EEBAB2;
+    border-radius: 20px;
+    padding: 73px;
+}
+
+.title{
+    color: black;
+    font-size:35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.links{
+    width: 45%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 37px;
+
+}
+
+.expLink{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.section h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.section p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.history{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media screen and (max-width:830px) {
+    .links{
+        width: 100%;
+        flex-direction: row;
+        justify-content:center;
+    }
+    .expLink{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        gap:20px;
+    }
+    .history{
+        width: 100%;
+        gap: 9px;
+    }
+}
+
